@@ -8,8 +8,8 @@ export default function BlogCardComponent({pageLink, titleName, dateTime}) {
     let readableDate = date.toDateString();
   return (
     <>
+    <p>Last Updated: {readableDate}</p>
     <Link href={pageLink}><a>{titleName}</a></Link>
-    <p>{readableDate}</p>
     </>
 
   );

@@ -9,11 +9,9 @@ export default function Test() {
   var current = new Date();
   return (
     <Layout>
-        <BlogCardComponent titleName='Take me down' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
-        <BlogCardComponent titleName='Test' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
-        <BlogCardComponent titleName='The Best Title' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
-        <BlogCardComponent titleName='The Best Title' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
-        <BlogCardComponent titleName='The Best Title' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
+        <BlogCardComponent titleName='Linkedin' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
+        <BlogCardComponent titleName='Github' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
+        <BlogCardComponent titleName='Email Me ' pageLink='https://www.google.com' dateTime={current}></BlogCardComponent>
     </Layout>
 
   )
